@@ -1,4 +1,4 @@
-
+/*--------------------*/
 *{
 	padding: 0;
 	margin: 0;
@@ -16,10 +16,14 @@ nav,footer,header,aside{display: block;}
 
 html,body{
 	height: 100%;
+	width: 100%;
 	font-size: 100%;
-	font-size: 16px;
+	font-family: Heebo;
+	line-height: 1;
+	font-size: 14px;
 	color: #000;
-	background-color: #fff;
+	font-weight: 500;
+	background-color: #E5E5E5;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -37,11 +41,3 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-
-.wrapper {
-	min-height: 100%;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-
-}
