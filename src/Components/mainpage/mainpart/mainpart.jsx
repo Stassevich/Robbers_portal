@@ -1,5 +1,6 @@
 
 import './mainpart.css'
+import image1 from '../../../img/header_photo.jpg'
 
 function Mainpart() {
 	return (
@@ -16,7 +17,7 @@ function Mainpart() {
 					</div>
 				</div>
 				<div className="main-block-image">
-					<img src="" alt="cover" />
+					<img src={image1} alt="cover"></img>
 				</div>
 			</div>
 		</section>
