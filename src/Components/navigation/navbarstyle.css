@@ -1,5 +1,8 @@
 /* Nav */
 
+
+
+
 .nav {
 	padding: 0px 0;
 	background-color: var(--nav-bg);
@@ -19,6 +22,7 @@
 }
 
 .logo {
+	display: block;
 	margin-right: auto;
 	color: var(--nav-text);
 	font-size: 24px;
@@ -49,11 +53,11 @@
 	opacity: 0.8;
 }
 
-.nav-list__link--active {
+.nav-list__link-active {
 	position: relative;
 }
 
-.nav-list__link--active::before {
+.nav-list__link-active::before {
 	content: '';
 
 	position: absolute;
@@ -64,4 +68,66 @@
 	height: 2px;
 	width: 100%;
 	background-color: var(--accent);
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.nav-row {
+		column-gap: 25px;
+		justify-content:left;
+	}
+	
+	.logo {
+		margin: 0px;
+	}
+
+	.nav-list li {
+		display: none;
+	}
+
+
+	.burger-button {
+		
+		width: 30px;
+		height: 30px;
+		margin-left: auto;
+		position: relative;
+		cursor: pointer;
+	}
+
+	.burger-button::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 30px;
+		background-color: white;
+		height: 2px;
+	}
+
+	.burger-button span {
+		position: absolute;
+		top: 13px;
+		width: 30px;
+		background-color: white;
+		height: 3px;
+	}
+
+	.burger-button::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		width: 30px;
+		background-color: white;
+		height: 2px;
+	}
+
+	.burger-button.active::before {
+		transform: rotate(45deg);
+	} 
+
+	.burger-button.active::after {
+		transform: rotate(-45deg);
+	} 
+
 }

@@ -24,6 +24,20 @@ const robbersList = [
 		img: project01,
 		imgBig: project01big,
 	},
+	{
+		name: "Name",
+		id: 4,
+		description: "Description",
+		img: project01,
+		imgBig: project01big,
+	},
+	{
+		name: "Name",
+		id: 5,
+		description: "Description",
+		img: project01,
+		imgBig: project01big,
+	},
 
 ];
 

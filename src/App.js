@@ -1,23 +1,33 @@
 import "./styles/main.css"
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import ScrollToTop from "./helpers/scrollToTop"
 
 import Navbar from "./Components/navigation/navbar"
-import Header from "./Components/header/header"
-import MainPage from "./Components/main/mainpart"
-import Footer from "./Components/footer/footer"
 import HomePage from "./Pages/homepage"
 import RobbersPage from "./Pages/robberspage"
 import Contacts from "./Pages/contacts"
-import MainPart from "./Components/main/mainpart"
+import PersonalRobberPage from "./Pages/personalrobberpage"
+
 
 function App() {
 	return (
 		<div className="App">
-			<Navbar />
 
-			<RobbersPage />
+			<Router>
+				<ScrollToTop />
+				<Navbar />
 
-			<Footer />
+				<Routes>
+
+					<Route path="/" element={<HomePage />} />
+					<Route path="/robberspage" element={<RobbersPage />} />
+					<Route path="/contacts" element={<Contacts />} />
+					<Route path="/robberpersonal" element={<PersonalRobberPage />} />
+
+				</Routes>
+
+			</Router>
 		</div>
 	);
 }
