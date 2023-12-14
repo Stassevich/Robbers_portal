@@ -9,7 +9,6 @@ import RobbersPage from "./Pages/robberspage"
 import Contacts from "./Pages/contacts"
 import PersonalRobberPage from "./Pages/personalrobberpage"
 
-
 function App() {
 	return (
 		<div className="App">
@@ -23,7 +22,7 @@ function App() {
 					<Route path="/" element={<HomePage />} />
 					<Route path="/robberspage" element={<RobbersPage />} />
 					<Route path="/contacts" element={<Contacts />} />
-					<Route path="/robberpersonal" element={<PersonalRobberPage />} />
+					<Route path="/robberpersonal/:id" element={<PersonalRobberPage />} />
 
 				</Routes>
 

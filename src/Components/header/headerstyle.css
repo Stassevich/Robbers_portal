@@ -11,7 +11,7 @@
 	align-items: center;
 
 	background-color: var(--header-bg);
-	background-image: url('./../../img/header-bg.png');
+	background-image: url('./../../img/background_main.jpg');
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: center center;
@@ -39,7 +39,7 @@
 
 .header__title em {
 	font-style: normal;
-	color: var(--accent);
+	color: white;
 }
 
 .header__text {

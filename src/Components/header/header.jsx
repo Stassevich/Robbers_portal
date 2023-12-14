@@ -12,7 +12,7 @@ function Header() {
 				<div className="header__text">
 					<p>We are begging you <br /> not to steal anything</p>
 				</div>
-				<a href="#!" className="btn">Download CV</a>
+
 			</div>
 		</header>
 	);
