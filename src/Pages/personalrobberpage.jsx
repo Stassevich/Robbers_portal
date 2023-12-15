@@ -4,15 +4,18 @@ import { robbersList } from '../helpers/robbersList';
 import Carousel from 'react-bootstrap/Carousel';
 import Timeline from '../Components/timeline/timeline';
 import VideoElement from '../Components/youtubevideo/videoelement';
-
+import { useTranslation } from "react-i18next"
 import Button from 'react-bootstrap/Button';
-
 
 function PersonalRobberPage() {
 	const { id } = useParams();
 	const currRobber = robbersList[id];
 
+	const { t, i18n } = useTranslation();
 
+	const changeLanguage = (language) => {
+		i18n.changeLanguage(language);
+	};
 
 	return (
 		<main className="section">
@@ -32,7 +35,7 @@ function PersonalRobberPage() {
 						< Timeline robber={currRobber} />
 					</div>
 
-					<h2 className="title-2">Video</h2>
+					<h2 className="title-2">{t("Video")}</h2>
 					<VideoElement name={currRobber.name} />
 
 					<Button href="https://www.youtube.com/" target='_blank' style={

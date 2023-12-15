@@ -5,8 +5,9 @@ import { NavLink } from "react-router-dom";
 import './navbarstyle.css'
 import MenuBurger from "../menub/menuburger";
 import { useState } from "react";
-
-
+import { Button } from "react-bootstrap";
+import { changeLanguage } from "i18next";
+import { useTranslation } from "react-i18next"
 
 
 
@@ -30,6 +31,12 @@ function Navbar() {
 	];
 	const [menuActive, setMenuActive] = useState(false);
 
+	const { t, i18n } = useTranslation();
+
+	const changeLanguage = (language) => {
+		i18n.changeLanguage(language);
+	};
+
 	return (
 		<nav className="nav">
 			<div className="container">
@@ -49,19 +56,26 @@ function Navbar() {
 						<li className="nav-list__item">
 							<NavLink to="/" className={({ isActive }) => {
 								return isActive ? activeLink : commonLink;
-							}} >Home</NavLink>
+							}} >{t("Home")}</NavLink>
 						</li>
 						<li className="nav-list__item">
 							<NavLink to="/robberspage" className={({ isActive }) => {
 								return isActive ? activeLink : commonLink;
-							}} >Robbers</NavLink>
+							}} >{t("Robbers")}</NavLink>
 						</li>
 						<li className="nav-list__item">
 							<NavLink to="/contacts" className={({ isActive }) => {
 								return isActive ? activeLink : commonLink;
-							}}>Contacts</NavLink>
+							}}>{t("Contacts")}</NavLink>
+						</li>
+						<li className="nav-list__item">
+							<button type="button" class="btn btn-primary" onClick={() => changeLanguage("ru")}>RU</button>
+						</li>
+						<li className="nav-list__item">
+							<button type="button" class="btn btn-primary" onClick={() => changeLanguage("en")}>EN</button>
 						</li>
 					</ul>
+
 				</div>
 			</div>
 

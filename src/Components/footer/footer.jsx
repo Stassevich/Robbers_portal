@@ -15,27 +15,7 @@ function Footer() {
 					<ul className="social">
 						<li className="social__item">
 							<a href="#!">
-								<img src={vk} alt="Link" />
-							</a>
-						</li>
-						<li className="social__item">
-							<a href="#!">
-								<img src={instagram} alt="Link" />
-							</a>
-						</li>
-						<li className="social__item">
-							<a href="#!">
-								<img src={twitter} alt="Link" />
-							</a>
-						</li>
-						<li className="social__item">
-							<a href="#!">
 								<img src={github} alt="Link" />
-							</a>
-						</li>
-						<li className="social__item">
-							<a href="#!">
-								<img src={linkedin} alt="Link" />
 							</a>
 						</li>
 					</ul>

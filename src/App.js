@@ -8,8 +8,12 @@ import HomePage from "./Pages/homepage"
 import RobbersPage from "./Pages/robberspage"
 import Contacts from "./Pages/contacts"
 import PersonalRobberPage from "./Pages/personalrobberpage"
+import { useTranslation } from "react-i18next"
 
 function App() {
+
+
+
 	return (
 		<div className="App">
 

@@ -9,13 +9,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date1}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title1}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text1}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -23,13 +22,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date2}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title2}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text2}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -37,13 +35,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date3}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title3}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text3}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -51,13 +48,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date4}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title4}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text4}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -65,13 +61,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date5}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title5}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text5}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -79,13 +74,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date6}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title6}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text6}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -93,13 +87,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date7}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title7}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text7}
 				</p>
 			</VerticalTimelineElement>)
 			}
@@ -107,13 +100,12 @@ function Timeline(props) {
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  rgb(0, 0, 0)' }}
-				date="2008 - 2010"
+				date={props.robber.date8}
 				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 			>
-				<h3 className="vertical-timeline-element-title">Web Designer</h3>
-				<h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+				<h4 className="vertical-timeline-element-subtitle">{props.robber.title8}</h4>
 				<p>
-					User Experience, Visual Design
+					{props.robber.text8}
 				</p>
 			</VerticalTimelineElement>)
 			}
