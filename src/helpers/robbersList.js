@@ -11,6 +11,8 @@ const robbersList = [
 		yearsOfLife: "05.09.1847 - 03.04.1882",
 		description: "A daring outlaw from Missouri.",
 		img: jessetrain,
+		mLat:"38.412816",
+		mLng:"-92.596890",
 
 		title1: "Childhood and youth",
 		date1: "1847",
@@ -44,6 +46,8 @@ const robbersList = [
 		description: "An American train and bank robber and the leader of a gang of criminal outlaws known as the Wild Bunch in the Old West.",
 		img: butchcassidy,
 		id: 2,
+		mLat:"39.111009",
+		mLng:"-111.658750",
 
 		title1: "Early years",
 		date1: "1866",
@@ -67,6 +71,8 @@ const robbersList = [
 		description: "American criminal of the first half of the 1930s, bank robber, FBI public enemy number 1.",
 		img: johndilinger,
 		id: 3,
+		mLat:"39.789660",
+		mLng:"-86.194406",
 
 		title1: "Early years",
 		date1: "1903",
@@ -91,6 +97,8 @@ const robbersList = [
 		description: "American criminal, a bank robber who stole nearly two million dollars during his criminal career and spent much of his adult life in prison.",
 		img: williesutton,
 		id: 4,
+		mLat:"40.856494",
+		mLng:"-74.490382",
 
 		title1: "First robbery",
 		date1: "1901",
@@ -114,6 +122,8 @@ const robbersList = [
 		description: "An outlaw who claimed to have robbed more banks than any man in America",
 		img: henrystarr,
 		id: 5,
+		mLat: "35.797572",
+		mLng: "-95.250418",
 
 		title1: "Early years",
 		date1: "1873",

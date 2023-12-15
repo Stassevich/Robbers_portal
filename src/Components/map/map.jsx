@@ -2,7 +2,7 @@ import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 const containerStyle = {
-    width: '645px',
+    width: '833px',
     height: '400px',
     marginLeft: '15px'
 };
@@ -23,7 +23,7 @@ function Map({mLat, mLng}) {
         lat: mLat,
         lng: mLng
     };
-    const Zoom = 10;
+    const Zoom = 6;
     return isLoaded ? (
         <GoogleMap
             mapContainerStyle={containerStyle}
