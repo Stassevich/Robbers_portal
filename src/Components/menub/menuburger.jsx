@@ -23,10 +23,10 @@ function MenuBurger({ items, active, setActive }) {
 						</li>
 					})}
 					<li>
-						<button type="button" class="btn btn-primary" onClick={() => changeLanguage("ru")}>RU</button>
+						<button type="button" className="btn btn-primary" onClick={() => changeLanguage("ru")}>RU</button>
 					</li>
 					<li>
-						<button type="button" class="btn btn-primary" onClick={() => changeLanguage("en")}>EN</button>
+						<button type="button" className="btn btn-primary" onClick={() => changeLanguage("en")}>EN</button>
 					</li>
 				</ul>
 			</div>

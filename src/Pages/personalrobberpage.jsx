@@ -6,6 +6,7 @@ import Timeline from '../Components/timeline/timeline';
 import VideoElement from '../Components/youtubevideo/videoelement';
 import { useTranslation } from "react-i18next"
 import Button from 'react-bootstrap/Button';
+import Map from '../Components/map/map';
 
 function PersonalRobberPage() {
 	const { id } = useParams();
@@ -35,11 +36,16 @@ function PersonalRobberPage() {
 						< Timeline robber={currRobber} />
 					</div>
 
+					<h2 className="title-2">{t("Map")}</h2>
+					<div style={{width: '100%', height: '100%'}}>
+						<Map mLat={35.797572}
+							 mLng={-95.250418}/>
+					</div>
 					<h2 className="title-2">{t("Video")}</h2>
 					<VideoElement name={currRobber.name} />
 
 					<Button href="https://www.youtube.com/" target='_blank' style={
-						{ background: "black" }
+						{ background: "black", marginTop: "10px" }
 					}>
 						Link
 					</Button>
