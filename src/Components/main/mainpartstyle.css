@@ -1,3 +1,6 @@
-
+.devs{
+    display: flex;
+    flex-direction: row;
+}
 
 

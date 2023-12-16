@@ -1,6 +1,10 @@
 import Robber from "../robbers/robber";
+import Developer from  '../developer/developer';
 import { robbersList } from '../../helpers/robbersList';
+import { ListDevs } from '../../helpers/developers';
 import { useTranslation } from "react-i18next"
+import './mainpartstyle.css'
+
 
 function MainPart() {
 	const { t, i18n } = useTranslation();
@@ -32,7 +36,11 @@ function MainPart() {
 					</li>
 					<li className="content-list__item">
 						<h2 className="title-2">{t("Developers")}</h2>
-						<p>Some links</p>
+						<div className="devs">
+						    {ListDevs.map((Dev) => {
+							    return < Developer key={Dev.id} Name={Dev.gitName} img={Dev.img} r={Dev.url} />
+						    })}
+						</div>	
 					</li>
 				</ul>
 

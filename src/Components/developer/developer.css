@@ -1,0 +1,9 @@
+.imgdev{
+    height: 100px;
+    clip-path: circle(50%);
+}
+
+.acc{
+    margin: 10px;
+    cursor: pointer;
+}
