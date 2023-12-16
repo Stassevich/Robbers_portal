@@ -1,0 +1,17 @@
+
+
+.main__conrainer{
+    padding:50px;
+    margin: auto;
+}
+.image__item{
+    z-index: 1000;
+    display: block;
+    margin: auto;   
+    width: 50%;
+}
+.text__item{
+    padding: 20px;
+    font-weight:400;
+    font-size: 20px;
+}
