@@ -5,6 +5,43 @@ import johndilinger from './../img/robberspic/johndilinger/Dillinger.jpg'
 import williesutton from './../img/robberspic/williesutton/sutton.jpg'
 import henrystarr from './../img/robberspic/henrystarr/henry.jpg'
 
+//butchcassidy
+import bci1 from './../img/robberspic/butchcassidy/afterrobb.jpg'
+import bci2 from './../img/robberspic/butchcassidy/band.jpg'
+import bci3 from './../img/robberspic/butchcassidy/butchcassidy.jpg'
+import bci4 from './../img/robberspic/butchcassidy/cassidyandkid.jpg'
+import bci5 from './../img/robberspic/butchcassidy/cowboy.jpg'
+
+//jessejames
+import jei1 from './../img/robberspic/jessejames/FlatcTaylorFrankJamesandJesseJames.png'
+import jei2 from './../img/robberspic/jessejames/jesse.jpg'
+import jei3 from './../img/robberspic/jessejames/jesse17yo.jpg'
+import jei4 from './../img/robberspic/jessejames/jessedeath.png'
+import jei5 from './../img/robberspic/jessejames/jessetrain.png'
+import jei6 from './../img/robberspic/jessejames/wanted.png'
+
+//henrystarr
+import hsi1 from './../img/robberspic/henrystarr/henry.jpg'
+import hsi2 from './../img/robberspic/henrystarr/henry2.jpg'
+import hsi3 from './../img/robberspic/henrystarr/movie.jpg'
+import hsi4 from './../img/robberspic/henrystarr/young.jpg'
+
+//johndilinger
+import jdi1 from './../img/robberspic/johndilinger/Dillinger.jpg'
+import jdi2 from './../img/robberspic/johndilinger/freed.jpg'
+import jdi3 from './../img/robberspic/johndilinger/inprison.jpg'
+import jdi4 from './../img/robberspic/johndilinger/johny_depp.jpg'
+import jdi5 from './../img/robberspic/johndilinger/wanted.jpg'
+import jdi6 from './../img/robberspic/johndilinger/wanted2.jpg'
+
+//williesutton
+import wli1 from './../img/robberspic/williesutton/arest.jpg'
+import wli2 from './../img/robberspic/williesutton/artist.jpg'
+import wli3 from './../img/robberspic/williesutton/interrogation.jpg'
+import wli4 from './../img/robberspic/williesutton/news.jpeg'
+import wli5 from './../img/robberspic/williesutton/sutton.jpg'
+import wli6 from './../img/robberspic/williesutton/time.jpg'
+
 const robbersList = [
 	{
 		name: "Jesse James",
@@ -38,6 +75,26 @@ const robbersList = [
 		date6: "1882",
 		text6: "On 3 April 1882, gang member 20-year-old Robert Ford shot Jesse in the back with a revolver. The shot was fired when Jesse James, having removed all his weapons (which he almost never did), turned his back to Ford to correct a painting on the wall.",
 
+		
+		im1:jei1,
+		tim1:"F. Taylor F. and J. James",
+
+		im2:jei2,
+		tim2:"Jesse James",
+
+		im3:jei3,
+		tim3:"Jesse - 17 years old",
+
+		im4:jei4,
+		tim4:"Murder of jessie",
+
+		im5:jei5,
+		tim5:"Train robbery",
+
+		im6:jei6,
+		tim6:"Wanted poster",
+
+
 		id: 1,
 	},
 	{
@@ -64,6 +121,22 @@ const robbersList = [
 		title4: "Death",
 		date4: "1908",
 		text4: "After Etta returned to the United States in 1905, Butch and Sundance resumed their criminal activities and gained the same fame they had enjoyed in the United States. They travelled through Chile to Bolivia, where they were caught by Bolivian soldiers in 1908. Supposedly Butch and Sundance were shot, but there are no reliable sources to prove this.",
+	
+		im1:bci1,
+		tim1:"After the raid",
+
+		im2:bci2,
+		tim2:"Butch gang",
+
+		im3:bci3,
+		tim3:"Butch Cassidy",
+
+		im4:bci4,
+		tim4:"Cassidy and Kid",
+
+		im5:bci5,
+		tim5:"At the ranch",
+		
 	},
 	{
 		name: "John Dilinger",
@@ -89,7 +162,25 @@ const robbersList = [
 		title4: "Death",
 		date4: "1934",
 		text4: "Dillinger's crimes, bank robberies and especially the murder of policemen led to his being declared public enemy number one by the FBI. A special task force was also created to search for Dillinger, and the first reforms were made to the entire FBI service. In time, all of Dillinger's gang members were killed, and he himself went into hiding for over a year in Florida, Arizona, Michigan, and Wisconsin until he was wounded in one of the shootouts with police and moved in with his father to treat his wound.Soon after, in July 1934, he returned to Chicago, where he was discovered by the police - his location given away by prostitute Ana Kumpanash(known as Anna Sage).On the evening of 22 July 1934, police were on the trail of the robber and ambushed him outside a movie theatre that Dillinger was due to visit.After the film ended, he exited the theatre, where FBI agents ordered him to surrender.Dillinger drew his gun and attempted to shoot one of the agents, but was shot three times.The fatal wound was a bullet wound to the face.",
+		
+		im1:jdi1,
+		tim1:"John Dilinger",
 
+		im2:jdi2,
+		tim2:"John with a weapon",
+
+		im3:jdi3,
+		tim3:"John's court case",
+
+		im4:jdi4,
+		tim4:"Restored photograph of John",
+
+		im5:jdi5,
+		tim5:"John on a wanted poster",
+
+		im6:jdi6,
+		tim6:"Wanted poster",
+	
 	},
 	{
 		name: "Willie «The Actor» Sutton",
@@ -115,6 +206,26 @@ const robbersList = [
 		title4: "Imprisonment and death",
 		date4: "1945--",
 		text4: "In Philadelphia, Sutton was caught fairly quickly during another robbery and imprisoned in a Pennsylvania prison where he served 15 years. He escaped in April 1945 but was caught the same day and sentenced to life in prison, but in 1947 he made his most famous escape, which brought him national fame, when he and several accomplices stole guards' uniforms and made model guns out of wood. Once free, he became quieter, but in 1952 he was caught by FBI agents (having been among the most wanted criminals since 1950). He was sentenced to life imprisonment, but was released in 1969 on the grounds of his health and good behaviour. In the last years of his life he advised banks on burglar-proofing systems, wrote his autobiography and willingly gave interviews to journalists.",
+		
+		im1:wli1,
+		tim1:"Sutton's arrest",
+
+		im2:wli2,
+		tim2:"Sutton at the police station",
+		
+		im3:wli3,
+		tim3:"Interrogation of Sutton",
+		
+		im4:wli4,
+		tim4:"wanted poster",
+		
+		im5:wli5,
+		tim5:"Willie «The Actor» Sutton",
+		
+		
+		im6:wli6,
+		tim6:"Sutton in different years",
+
 	},
 	{
 		name: "Henry George Starr",
@@ -156,6 +267,18 @@ const robbersList = [
 		title8: "Death",
 		date8: "1921",
 		text8: "After being released, the former gangster really began to lead an honest life. He played himself in the film The Law Debtor. On 22 February 1920, he married Martha Llewellyn of Sallisaw. The couple moved to Claremore, Oklahoma. It didn't take long for Henry to live an honest life. On 18 February 1921, Starr and three partners drove into Harrison, Arkansas. The gang robbed the People's State Bank of $6,000.Henry was wounded by a shot in the back.The partners fled, leaving him behind.Starr was captured and taken to jail.Doctors removed the bullet.On 22 February, Henry Starr died from the effects of the wound.",
+
+		im1:hsi1,
+		tim1:"Henry in full view",
+
+		im2:hsi2,
+		tim2:"Henry George Starr",
+
+		im3:hsi3,
+		tim3:"A Debtor to the Law movie poster",
+
+		im4:hsi4,
+		tim4:"Henry in his youth",
 
 	},
 
