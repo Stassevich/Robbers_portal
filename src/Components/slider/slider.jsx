@@ -1,11 +1,10 @@
-import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './slider.css'; 
 
-import Left from '../../img/icons/gitHub-black.svg'
-import Right from '../../img/icons/gitHub-black.svg'
+import Left from '../../img/sliderimg/leftimbtn.png'
+import Right from '../../img/sliderimg/rightimbtn.png'
 
 function Carousel(props){
       const settings = {
@@ -16,8 +15,8 @@ function Carousel(props){
         slidesToScroll: 1,
   
         //иконки нужно поискать
-        nextArrow: <img src={Left} alt="Left" />,
-        prevArrow: <img src={Right} alt="Prev" />
+        nextArrow: <img src={Right} alt="Next" />,
+        prevArrow: <img src={Left} alt="Prev" />
       };
      
   
