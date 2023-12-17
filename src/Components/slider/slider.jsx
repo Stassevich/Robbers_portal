@@ -15,6 +15,7 @@ function Carousel(props){
         slidesToScroll: 1,
   
         //иконки нужно поискать
+        //Уже не надо
         nextArrow: <img src={Right} alt="Next" />,
         prevArrow: <img src={Left} alt="Prev" />
       };
