@@ -35,25 +35,19 @@ function PersonalRobberPage() {
 					<div className="timeline__container">
 						< Timeline robber={currRobber} />
 					</div>
-					
+
 					<h2 className="title-2">{t("Gallery")}</h2>
-					<div className="slider__container" style={{ margin: 'auto', height: '20%', width: '80%'}}>
-						<SliderCar name={currRobber}/>
+					<div className="slider__container" style={{ margin: 'auto', height: '20%', width: '80%' }}>
+						<SliderCar name={currRobber} />
 					</div>
 
 					<h2 className="title-2">{t("Map")}</h2>
-					<div style={{width: '100%', height: '100%'}}>
+					<div style={{ width: '100%', height: '100%' }}>
 						<Map mLat={parseFloat(currRobber.mLat)}
-							 mLng={parseFloat(currRobber.mLng)}/>
+							mLng={parseFloat(currRobber.mLng)} />
 					</div>
 					<h2 className="title-2">{t("Video")}</h2>
 					<VideoElement name={currRobber.name} />
-
-					<Button href="https://www.youtube.com/" target='_blank' style={
-						{ background: "black", marginTop: "10px" }
-					}>
-						Link
-					</Button>
 
 				</div>
 			</div>

@@ -1,9 +1,5 @@
 
-import vk from "../../img/icons/vk.svg"
-import twitter from "../../img/icons/twitter.svg"
-import instagram from "../../img/icons/instagram.svg"
 import github from "../../img/icons/gitHub.svg"
-import linkedin from "../../img/icons/linkedIn.svg"
 
 import './footerstyle.css'
 
@@ -14,7 +10,7 @@ function Footer() {
 				<div className="footer__wrapper">
 					<ul className="social">
 						<li className="social__item">
-							<a href="#!">
+							<a href="https://github.com/IvanManhattan/Robbers_portal" target="_blank">
 								<img src={github} alt="Link" />
 							</a>
 						</li>

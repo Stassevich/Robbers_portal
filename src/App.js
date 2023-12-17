@@ -6,7 +6,7 @@ import ScrollToTop from "./helpers/scrollToTop"
 import Navbar from "./Components/navigation/navbar"
 import HomePage from "./Pages/homepage"
 import RobbersPage from "./Pages/robberspage"
-import Contacts from "./Pages/contacts"
+import About from "./Pages/About"
 import PersonalRobberPage from "./Pages/personalrobberpage"
 import { useTranslation } from "react-i18next"
 
@@ -25,7 +25,7 @@ function App() {
 
 					<Route path="/" element={<HomePage />} />
 					<Route path="/robberspage" element={<RobbersPage />} />
-					<Route path="/contacts" element={<Contacts />} />
+					<Route path="/about" element={<About />} />
 					<Route path="/robberpersonal/:id" element={<PersonalRobberPage />} />
 
 				</Routes>

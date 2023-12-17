@@ -3,7 +3,7 @@
 
 .robberspage {
 	opacity: 0;
-  	animation: ani 2.5s forwards;
+  	animation: ani 1.5s forwards;
 }
 
 @keyframes ani {

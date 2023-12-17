@@ -26,8 +26,8 @@ function Navbar() {
 			path: "/robberspage"
 		},
 		{
-			value: "Contacts",
-			path: "/contacts"
+			value: "About",
+			path: "/about"
 		},
 	];
 	const [menuActive, setMenuActive] = useState(false);
@@ -65,9 +65,9 @@ function Navbar() {
 							}} >{t("Robbers")}</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<NavLink to="/contacts" className={({ isActive }) => {
+							<NavLink to="/about" className={({ isActive }) => {
 								return isActive ? activeLink : commonLink;
-							}}>{t("Contacts")}</NavLink>
+							}}>{t("About")}</NavLink>
 						</li>
 						<li className="nav-list__item">
 							<button type="button" class="btn btn-outline-light" onClick={() => changeLanguage("ru")}>RU</button>
