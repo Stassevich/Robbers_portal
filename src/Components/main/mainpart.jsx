@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next"
 import './mainpartstyle.css'
 
 
+
 function MainPart() {
 	const { t, i18n } = useTranslation();
 
@@ -13,25 +14,22 @@ function MainPart() {
 		i18n.changeLanguage(language);
 	};
 
-	function getRandomInt(max) {
-		return Math.floor(Math.random() * max);
+	function getRobberOfDay() {
+		const d = new Date().getDate();
+		return robbersList[d % 5];
 	}
 
-	function getRandomRobber() {
-		return robbersList[getRandomInt(5)];
-	}
-
-	const randomRobber = getRandomRobber();
+	const robberOfDay = getRobberOfDay();
 
 	return (
 		<main className="section">
 			<div className="container">
-
 				<ul className="content-list">
 					<li className="content-list__item">
 						<h2 className="title-2">{t("Robber_of_the_day")}</h2>
-						<div className="random-robber">
-							<Robber className="robberOfDay" key={randomRobber.id} robbersName={randomRobber.name} img={randomRobber.img} index={randomRobber.id} />
+						<div className="day-robber">
+							<Robber className="robber-of-day" key={robberOfDay.id} robbersName={robberOfDay.name} img={robberOfDay.img} index={robberOfDay.id} />						
+                            <p className="description">{robberOfDay.description}</p>
 						</div>
 					</li>
 					<li className="content-list__item">

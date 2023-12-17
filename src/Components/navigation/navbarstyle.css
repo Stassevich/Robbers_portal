@@ -1,8 +1,6 @@
 /* Nav */
 
 
-
-
 .nav {
 	padding: 0px 0;
 	background-color: var(--nav-bg);
@@ -43,6 +41,7 @@
 	font-weight: 500;
 	font-family: 'Poppins', sans-serif;
 }
+
 
 .nav-list__link {
 	color: var(--nav-text);

@@ -6,6 +6,7 @@ import './navbarstyle.css'
 import MenuBurger from "../menub/menuburger";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { changeLanguage } from "i18next";
 import { useTranslation } from "react-i18next"
 
@@ -69,10 +70,10 @@ function Navbar() {
 							}}>{t("Contacts")}</NavLink>
 						</li>
 						<li className="nav-list__item">
-							<button type="button" class="btn btn-primary" onClick={() => changeLanguage("ru")}>RU</button>
+							<button type="button" class="btn btn-outline-light" onClick={() => changeLanguage("ru")}>RU</button>
 						</li>
 						<li className="nav-list__item">
-							<button type="button" class="btn btn-primary" onClick={() => changeLanguage("en")}>EN</button>
+							<button type="button" class="btn btn-outline-light" onClick={() => changeLanguage("en")}>EN</button>
 						</li>
 					</ul>
 
