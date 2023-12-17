@@ -22,10 +22,10 @@ function MenuBurger({ items, active, setActive }) {
 							<NavLink to={item.path}>{item.value}</NavLink>
 						</li>
 					})}
-					<li>
+					<li className={active ? 'button-menu active' : 'button-menu'} onClick={() => setActive(false)}>
 						<button type="button" className="btn btn-primary" onClick={() => changeLanguage("ru")}>RU</button>
 					</li>
-					<li>
+					<li className={active ? 'button-menu active' : 'button-menu'} onClick={() => setActive(false)}>
 						<button type="button" className="btn btn-primary" onClick={() => changeLanguage("en")}>EN</button>
 					</li>
 				</ul>

@@ -4,6 +4,12 @@
 }
 
 .acc{
+	width: 100%;
     margin: 10px;
     cursor: pointer;
+}
+
+.acc__wrapper {
+	padding: 0 15px;
+	max-width: 660px;
 }

@@ -17,6 +17,10 @@
 		transition: all 0.4s;
 	}
 
+	.button-menu {
+		display: none;
+	}
+
 	.menu.active {
 		transform: translateX(0);
 	}
@@ -33,6 +37,10 @@
 		text-align: center;
 		margin: 5px 0px;
 
+	}
+
+	.button-menu.active {
+		display: block;
 	}
 	
 }

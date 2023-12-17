@@ -1,5 +1,5 @@
 import Robber from "../robbers/robber";
-import Developer from  '../developer/developer';
+import Developer from '../developer/developer';
 import { robbersList } from '../../helpers/robbersList';
 import { ListDevs } from '../../helpers/developers';
 import { useTranslation } from "react-i18next"
@@ -28,17 +28,17 @@ function MainPart() {
 					<li className="content-list__item">
 						<h2 className="title-2">{t("Robber_of_the_day")}</h2>
 						<div className="day-robber">
-							<Robber className="robber-of-day" key={robberOfDay.id} robbersName={robberOfDay.name} img={robberOfDay.img} index={robberOfDay.id} />						
-                            <p className="description">{robberOfDay.description}</p>
+							<Robber className="robber-of-day" key={robberOfDay.id} robbersName={robberOfDay.name} img={robberOfDay.img} index={robberOfDay.id} />
+							<p className="description">{robberOfDay.description}</p>
 						</div>
 					</li>
 					<li className="content-list__item">
 						<h2 className="title-2">{t("Developers")}</h2>
 						<div className="devs">
-						    {ListDevs.map((Dev) => {
-							    return < Developer key={Dev.id} Name={Dev.gitName} img={Dev.img} r={Dev.url} />
-						    })}
-						</div>	
+							{ListDevs.map((Dev) => {
+								return < Developer key={Dev.id} Name={Dev.gitName} img={Dev.img} r={Dev.url} />
+							})}
+						</div>
 					</li>
 				</ul>
 
